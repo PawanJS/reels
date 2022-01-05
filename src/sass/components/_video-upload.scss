@@ -1,0 +1,31 @@
+.add_video-container {
+  background: #f4f8ff;
+  top: 50%;
+  padding: 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  height: 18rem;
+}
+
+.add_video-container .close-btn {
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.add_video-container p {
+  margin-bottom: 0;
+}
+
+.select-video {
+  position: absolute;
+  width: 1px;
+  left: -10000000px;
+}
+
+.select-video-btn {
+  padding: 1rem 3rem;
+  background: #197dff;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}

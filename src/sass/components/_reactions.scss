@@ -1,0 +1,18 @@
+.reactions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #fff;
+  padding: 1rem;
+  bottom: 5rem;
+  z-index: 999;
+
+  .reaction-btn svg,
+  .reaction-btn span {
+    pointer-events: none;
+  }
+
+  .emoji img {
+    width: 6rem;
+  }
+}

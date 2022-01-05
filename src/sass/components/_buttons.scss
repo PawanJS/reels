@@ -1,0 +1,76 @@
+.btn-container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.8);
+
+  .reaction-btn {
+    background: transparent;
+    border: none;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+  }
+
+  .reaction-btn svg,
+  .reaction-btn span {
+    pointer-events: none;
+  }
+
+  .reaction-btn svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.close-btn {
+  border: none;
+  background: transparent;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+.close-svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.volume-container {
+  position: fixed;
+  z-index: 999;
+  top: 10%;
+  right: 5%;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem;
+}
+
+.volume-container figure {
+  pointer-events: none;
+}
+
+.volume {
+  transition: all 0.8s;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.volume.active {
+  display: block;
+}
+
+.volume img {
+  width: 3rem;
+}
